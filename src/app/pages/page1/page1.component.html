@@ -1,0 +1,46 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center">
+    <h2>
+      Country list from local json file...
+    </h2>
+  <ul *ngFor="let item of countryList">
+    <li>
+      <h3>Country Name :{{item.name}}, Code: {{item.code}}</h3>
+    </li>
+  </ul>
+  </div> -->
+  
+
+  
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title"> Machine Table</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th class="alignText">No</th>
+                <th class="alignText">Machine</th>
+                <th class="alignText">Operations</th>
+                <th class="alignText">Parts</th>
+                <th class="alignText">Time</th>
+                </thead>
+              <tbody>
+                <tr *ngFor="let item of list">
+                  <td class="alignText">{{item.no}}</td>
+                  <td class="alignText">{{item.machine}} </td>
+                  <td class="alignText">{{item.Operation}}</td>
+                  <td class="alignText">{{item.Parts}}</td>
+                  <td class="alignText">{{item.Time}}</td>
+                 </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

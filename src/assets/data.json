@@ -1,0 +1,23 @@
+[
+    {
+        "no": 1,
+        "machine": "M101",
+        "Operation": "CNC",
+        "Parts": 150,
+        "Time": 5
+    },
+    {
+        "no": 2,
+        "machine": "M102",
+        "Operation": "VMC",
+        "Parts": 180,
+        "Time": 8
+    },
+    {
+        "no": 3,
+        "machine": "M103",
+        "Operation": "Turning",
+        "Parts": 345,
+        "Time": 9
+    }
+]
